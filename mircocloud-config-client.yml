@@ -4,6 +4,8 @@ spring:
     - dev
 
 ---
+  server:
+    port: 8201
   spring:
     profiles: dev
     application:
@@ -14,6 +16,8 @@ spring:
         defaultZone: http://edmin:housh@eureka-dev.com:7001/eureka
       
 ---
+  server:
+    port: 8102
   spring:
     profiles: beta
     application:
