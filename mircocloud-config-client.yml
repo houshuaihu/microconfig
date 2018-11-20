@@ -1,0 +1,24 @@
+spring:
+  profiles:
+    active:
+    - dev
+
+---
+  spring:
+    profiles: dev
+    application:
+      name: microconfig-config-client
+  eureka:
+    client: 
+      service-url:
+        defaultZone: http://edmin:housh@eureka-dev.com:7001/eureka
+      
+---
+  spring:
+    profiles: beta
+    application:
+      name: microconfig-config-client
+  eureka:
+    client: 
+      service-url:
+        defaultZone: http://edmin:housh@eureka-beta.com:7001/eureka
