@@ -10,7 +10,7 @@ server:
 eureka:
   client: # 客户端注册eureka 的配置
     service-url:
-      defaultZone: http://edmin:housh@eureka-7001.com:7001/eureka
+      defaultZone: http://edmindev:housh@eureka-7001.com:7001/eureka
   instance:
     lease-renewal-interval-in-seconds: 2 # 设置心跳的时间间隔（默认是30秒）
     lease-expiration-duration-in-seconds: 5 # 如果现在超过了5秒的间隔（默认是90秒）
@@ -47,7 +47,7 @@ server:
 eureka:
   client: # 客户端注册eureka 的配置
     service-url:
-      defaultZone: http://edmin:housh@eureka-7001.com:7001/eureka
+      defaultZone: http://edminbeta:housh@eureka-7001.com:7001/eureka
   instance:
     lease-renewal-interval-in-seconds: 2 # 设置心跳的时间间隔（默认是30秒）
     lease-expiration-duration-in-seconds: 5 # 如果现在超过了5秒的间隔（默认是90秒）
