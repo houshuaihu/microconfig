@@ -1,16 +1,4 @@
 spring:
   profiles:
     active:
-    - dev
-
----
-  spring:
-    profiles: dev
-    application:
-      name: microconfig-test-dev
-      
----
-  spring:
-    profiles: dev
-    application:
-      name: microconfig-test-default
+    - not-patten-profiles
